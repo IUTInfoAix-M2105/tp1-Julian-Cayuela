@@ -80,7 +80,7 @@ public class FizzBuzzTest {
 
     }
 
-    @Disabled
+//    @Disabled
     @Test
     public void test_computeList_Should_Return_a_sequence_of_5_elements_when_5() {
         String[] resultat = fizzBuzz.computeList(5);
