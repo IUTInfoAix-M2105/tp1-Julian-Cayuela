@@ -16,7 +16,7 @@ public class ConvertisseurDeNombreRomainTest {
         convertisseurDeNombreRomain = new ConvertisseurDeNombreRomain();
     }
 
-    @Disabled
+//    @Disabled
     @Test
     public void leChiffreRomainIDevraitDonner1() {
         int nombre = convertisseurDeNombreRomain.enNombreArabe("I");
