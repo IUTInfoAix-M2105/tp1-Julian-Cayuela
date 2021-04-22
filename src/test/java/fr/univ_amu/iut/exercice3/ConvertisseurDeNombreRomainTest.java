@@ -51,7 +51,7 @@ public class ConvertisseurDeNombreRomainTest {
         assertEquals(2, nombre);
     }
 
-    @Disabled
+//    @Disabled
     @Test
     public void leChiffreRomainIIIDevraitDonner3() {
         int nombre = convertisseurDeNombreRomain.enNombreArabe("III");

@@ -12,6 +12,8 @@ public class ConvertisseurDeNombreRomain {
             throw new IllegalArgumentException("Ceci n'est pas un chiffre romain");
         if (i.equals("II"))
             return 1+1;
+        if (i.equals("III"))
+            return 1+1+1;
         return 0;
     }
 }
