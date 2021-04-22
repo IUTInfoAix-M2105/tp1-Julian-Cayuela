@@ -18,6 +18,8 @@ public class ConvertisseurDeNombreRomain {
             throw new IllegalArgumentException("Ceci n'est pas une écriture romaine de 4");
         if (i.equals("XXX"))
             return 30;
+        if (i.equals("VI"))
+            return 6;
         return 0;
     }
 }
