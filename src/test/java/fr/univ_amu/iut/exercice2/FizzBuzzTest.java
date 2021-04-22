@@ -15,7 +15,7 @@ public class FizzBuzzTest {
         assertEquals("1", resultat);
     }
 
-    @Disabled
+//    @Disabled
     @Test
     public void test_computeString_Should_Return_2_when_2() {
         String resultat = fizzBuzz.computeString(2);
