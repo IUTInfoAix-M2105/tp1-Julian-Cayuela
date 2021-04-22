@@ -22,14 +22,14 @@ public class FizzBuzzTest {
         assertEquals("2", resultat);
     }
 
-    @Disabled
+//    @Disabled
     @Test
     public void test_computeString_Should_Return_Fizz_when_3() {
         String resultat = fizzBuzz.computeString(3);
         assertEquals("Fizz", resultat);
     }
     
-    @Disabled
+//    @Disabled
     @Test
     public void test_computeString_Should_Return_4_when_4() {
         String resultat = fizzBuzz.computeString(4);
