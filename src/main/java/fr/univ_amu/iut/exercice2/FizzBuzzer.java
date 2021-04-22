@@ -13,8 +13,10 @@ public class FizzBuzzer {
     }
 
     public String[] computeList(int i) {
-      String tab[];
-      tab = new String[i];
+      String tab[] = new String[i];
+      for (int j = 0; j < tab.length; j++)  {
+          tab[j] = computeString(j+1);
+      }
       return tab;
     }
 }
