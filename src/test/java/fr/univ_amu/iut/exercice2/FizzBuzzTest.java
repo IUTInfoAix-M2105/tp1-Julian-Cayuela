@@ -65,11 +65,19 @@ public class FizzBuzzTest {
         assertEquals("Buzz", resultat);
     }
 
-    @Disabled
+//    @Disabled
     @Test
     public void test_computeString_Should_Return_FizzBuzz_when_15() {
         String resultat = fizzBuzz.computeString(15);
         assertEquals("FizzBuzz", resultat);
+    }
+
+//    @Disabled
+    @Test
+    public void test_computeString_Should_Return_FizzBuzz_when_30() {
+        String resultat = fizzBuzz.computeString(30);
+        assertEquals("FizzBuzz", resultat);
+
     }
 
     @Disabled
