@@ -14,6 +14,8 @@ public class ConvertisseurDeNombreRomain {
             return 1+1;
         if (i.equals("III"))
             return 1+1+1;
+        if (i.equals("IIII"))
+            throw new IllegalArgumentException("Ceci n'est pas une écriture romaine de 4");
         return 0;
     }
 }
