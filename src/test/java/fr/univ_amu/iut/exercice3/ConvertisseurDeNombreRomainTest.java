@@ -44,7 +44,7 @@ public class ConvertisseurDeNombreRomainTest {
                 () ->convertisseurDeNombreRomain.enNombreArabe("Z"));
     }
 
-    @Disabled
+//    @Disabled
     @Test
     public void leChiffreRomainIIDevraitDonner2() {
         int nombre = convertisseurDeNombreRomain.enNombreArabe("II");
