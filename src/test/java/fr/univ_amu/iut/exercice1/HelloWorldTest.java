@@ -25,7 +25,7 @@ public class HelloWorldTest {
         assertEquals("Hello, Alice!", HelloWorld.hello("Alice"));
     }
 
-    @Disabled
+//    @Disabled
     @Test
     public void test_hello_should_return_hello_bob_when_bob() {
         assertEquals("Hello, Bob!", HelloWorld.hello("Bob"));
