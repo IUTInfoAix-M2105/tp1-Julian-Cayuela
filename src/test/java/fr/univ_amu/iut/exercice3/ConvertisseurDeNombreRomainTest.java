@@ -23,7 +23,7 @@ public class ConvertisseurDeNombreRomainTest {
         assertEquals(1, nombre);
     }
 
-    @Disabled
+//    @Disabled
     @Test
     public void leChiffreRomainVDevraitDonner5() {
         int nombre = convertisseurDeNombreRomain.enNombreArabe("V");
