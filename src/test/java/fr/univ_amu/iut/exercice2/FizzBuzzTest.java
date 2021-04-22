@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class FizzBuzzTest {
     private FizzBuzzer fizzBuzz = new FizzBuzzer();
 
-    @Disabled
+//    @Disabled
     @Test
     public void test_computeString_Should_Return_1_when_1() {
         String resultat = fizzBuzz.computeString(1);
