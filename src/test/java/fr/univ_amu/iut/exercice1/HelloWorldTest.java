@@ -13,7 +13,7 @@ public class HelloWorldTest {
         assertEquals("Hello, World!", HelloWorld.hello(new String()));
     }
 
-    @Disabled
+//    @Disabled
     @Test
     public void test_hello_with_no_name_should_return_helloworld() {
         assertEquals("Hello, World!", HelloWorld.hello(null));
