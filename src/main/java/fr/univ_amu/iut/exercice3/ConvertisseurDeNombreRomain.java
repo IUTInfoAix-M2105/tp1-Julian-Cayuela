@@ -20,6 +20,8 @@ public class ConvertisseurDeNombreRomain {
             return 30;
         if (i.equals("VI"))
             return 6;
+        if (i.equals("IV"))
+            return 4;
         return 0;
     }
 }

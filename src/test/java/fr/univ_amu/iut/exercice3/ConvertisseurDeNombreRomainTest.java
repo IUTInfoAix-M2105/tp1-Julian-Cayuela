@@ -79,7 +79,7 @@ public class ConvertisseurDeNombreRomainTest {
         assertEquals(6, nombre);
     }
 
-    @Disabled
+//    @Disabled
     @Test
     public void leChiffreRomainIVDevraitDonner4() {
         int nombre = convertisseurDeNombreRomain.enNombreArabe("IV");
