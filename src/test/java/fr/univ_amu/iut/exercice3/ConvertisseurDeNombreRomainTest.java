@@ -30,7 +30,7 @@ public class ConvertisseurDeNombreRomainTest {
         assertEquals(5, nombre);
     }
 
-    @Disabled
+//    @Disabled
     @Test
     public void leChiffreRomainXDevraitDonner10() {
         int nombre = convertisseurDeNombreRomain.enNombreArabe("X");

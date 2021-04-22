@@ -6,6 +6,8 @@ public class ConvertisseurDeNombreRomain {
             return 1;
         if (i.equals("V"))
             return 5;
+        if (i.equals("X"))
+            return 10;
         return 0;
     }
 }
