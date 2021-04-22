@@ -8,6 +8,8 @@ public class ConvertisseurDeNombreRomain {
             return 5;
         if (i.equals("X"))
             return 10;
+        if (i.equals("Z"))
+            throw new IllegalArgumentException("Ceci n'est pas un chiffre romain");
         return 0;
     }
 }
