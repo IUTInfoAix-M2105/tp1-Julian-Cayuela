@@ -19,7 +19,7 @@ public class HelloWorldTest {
         assertEquals("Hello, World!", HelloWorld.hello(null));
     }
 
-    @Disabled
+//    @Disabled
     @Test
     public void test_hello_should_return_hello_alice_when_alice() {
         assertEquals("Hello, Alice!", HelloWorld.hello("Alice"));
