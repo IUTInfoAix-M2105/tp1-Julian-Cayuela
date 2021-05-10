@@ -9,6 +9,7 @@ public class Robot {
         this.gridPosition = gridPosition;
         this.orientation = Orientation.NORTH;
 
+
     }
 
     public GridPosition getGridPosition() {
@@ -20,15 +21,15 @@ public class Robot {
     }
 
     public void turnRight() {
-        throw new RuntimeException("Not yet implemented !");
+
     }
 
     public void turnLeft() {
-        throw new RuntimeException("Not yet implemented !");
+
     }
 
     public void advance() {
-        throw new RuntimeException("Not yet implemented !");
+
     }
 }
 
