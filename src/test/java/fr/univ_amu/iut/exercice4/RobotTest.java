@@ -120,7 +120,7 @@ public final class RobotTest {
         assertEquals(expectedOrientation, robot.getOrientation());
     }
 
-    @Disabled
+ //   @Disabled
     @Test
     public void testAdvancingDoesNotChangeOrientation() {
         final Orientation initialOrientation = Orientation.NORTH;

@@ -58,6 +58,7 @@ public class Robot {
 
     public void advance() {
 
+
     }
 }
 
