@@ -147,7 +147,7 @@ public final class RobotTest {
         assertEquals(expectedGridPosition, robot.getGridPosition());
     }
 
-    @Disabled
+//    @Disabled
     @Test
     public void testAdvancingWhenFacingEastIncreasesXCoordinateByOne() {
         final Robot robot = new Robot(new GridPosition(0, 0), Orientation.EAST);

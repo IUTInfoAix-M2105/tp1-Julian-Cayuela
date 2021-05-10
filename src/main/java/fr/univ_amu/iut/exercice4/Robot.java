@@ -66,6 +66,10 @@ public class Robot {
                 posY = gridPosition.getY();
                 gridPosition.setY(posY - 1);
                 break;
+            case EAST:
+                int posX = gridPosition.getX();
+                gridPosition.setX(posX + 1);
+                break;
         }
 
     }
