@@ -2,28 +2,44 @@ package fr.univ_amu.iut.exercice3;
 
 public class ConvertisseurDeNombreRomain {
     public int enNombreArabe(String i) {
-        if (i.equals("I"))
+        int nombre = 0;
+
+        if (i.length() == 1) {
+            nombre = getNombreArabeFromCharacter(i.charAt(0));
+        }
+        if (i.length() > 1) {
+            for (int j = 0; j < i.length(); j++){
+                if (j < i.length()-1)
+                    if (getNombreArabeFromCharacter(i.charAt(j)) >= getNombreArabeFromCharacter(i.charAt(j+1)))
+                        nombre = nombre + getNombreArabeFromCharacter(i.charAt(j));
+                    else nombre = nombre - getNombreArabeFromCharacter(i.charAt(j));
+                else
+                    nombre = nombre + getNombreArabeFromCharacter(i.charAt(j));
+            }
+        }
+        if (i.equals("IL") || i.equals("IC") || i.equals("ID") || i.equals("IM") || i.equals("VX") || i.equals("XD") || i.equals("XM") || i.equals("IIII"))
+        throw new IllegalArgumentException("Les chiffres Romains ne marchent pas comme ça !");
+
+        return nombre;
+    }
+    public int getNombreArabeFromCharacter(char i) {
+        if (i == 'I')
             return 1;
-        if (i.equals("V"))
+        if (i == 'V')
             return 5;
-        if (i.equals("X"))
+        if (i == 'X')
             return 10;
-        if (i.equals("Z"))
-            throw new IllegalArgumentException("Ceci n'est pas un chiffre romain");
-        if (i.equals("II"))
-            return 1+1;
-        if (i.equals("III"))
-            return 1+1+1;
-        if (i.equals("IIII"))
-            throw new IllegalArgumentException("Ceci n'est pas une écriture romaine de 4");
-        if (i.equals("XXX"))
-            return 30;
-        if (i.equals("VI"))
-            return 6;
-        if (i.equals("IV"))
-            return 4;
-        if (i.equals("IX"))
-            return 9;
+        if (i == 'L')
+            return  50;
+        if (i == 'C')
+            return  100;
+        if (i == 'D')
+            return  500;
+        if (i == 'M')
+            return 1000;
+        if (i == 'Z')
+            throw new IllegalArgumentException(i + "n'est pas un chiffre Romain!");
         return 0;
+
     }
 }
