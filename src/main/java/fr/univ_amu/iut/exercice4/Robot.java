@@ -31,6 +31,9 @@ public class Robot {
             case SOUTH:
                 orientation = Orientation.WEST;
                 break;
+            case WEST:
+                orientation = Orientation.NORTH;
+                break;
         }
 
     }
