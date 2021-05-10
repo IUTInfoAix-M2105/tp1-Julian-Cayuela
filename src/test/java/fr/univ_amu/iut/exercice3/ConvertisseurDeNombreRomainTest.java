@@ -128,7 +128,7 @@ public class ConvertisseurDeNombreRomainTest {
         assertEquals(4888, nombre);
     }
 
-    @Disabled
+//    @Disabled
     @Test
     public void leChiffreRomainILDevraitDonnerUneException() {
         assertThrows(IllegalArgumentException.class,
