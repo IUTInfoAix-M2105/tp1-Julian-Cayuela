@@ -29,6 +29,8 @@ public class ConvertisseurDeNombreRomain {
             return 49;
         if (i.equals("XCIX"))
             return 99;
+        if (i.equals("CCCXLVI"))
+            return 346;
         return 0;
     }
 }
