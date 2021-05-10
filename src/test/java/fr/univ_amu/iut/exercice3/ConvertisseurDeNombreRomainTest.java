@@ -170,7 +170,7 @@ public class ConvertisseurDeNombreRomainTest {
                 () ->convertisseurDeNombreRomain.enNombreArabe("XD"));
     }
 
-    @Disabled
+//    @Disabled
     @Test
     public void leChiffreRomainXMDevraitDonnerUneException() {
         assertThrows(IllegalArgumentException.class,
