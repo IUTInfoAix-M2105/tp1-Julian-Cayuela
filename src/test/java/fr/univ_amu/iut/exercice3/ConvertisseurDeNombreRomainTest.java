@@ -100,77 +100,77 @@ public class ConvertisseurDeNombreRomainTest {
         assertEquals(49, nombre);
     }
 
-  //  @Disabled
+    @Disabled
     @Test
     public void leChiffreRomainXCIXDevraitDonner99() {
         int nombre = convertisseurDeNombreRomain.enNombreArabe("XCIX");
         assertEquals(99, nombre);
     }
 
-//    @Disabled
+    @Disabled
     @Test
     public void leChiffreRomainCCCXLVIDevraitDonner346() {
         int nombre = convertisseurDeNombreRomain.enNombreArabe("CCCXLVI");
         assertEquals(346, nombre);
     }
 
- //   @Disabled
+    @Disabled
     @Test
     public void leChiffreRomainCCCXCIXDevraitDonner399() {
         int nombre = convertisseurDeNombreRomain.enNombreArabe("CCCXCIX");
         assertEquals(399, nombre);
     }
 
- //   @Disabled
+    @Disabled
     @Test
     public void leChiffreRomainMMMMDCCCLXXXVIIIDevraitDonner4888() {
         int nombre = convertisseurDeNombreRomain.enNombreArabe("MMMMDCCCLXXXVIII");
         assertEquals(4888, nombre);
     }
 
- //   @Disabled
+    @Disabled
     @Test
     public void leChiffreRomainILDevraitDonnerUneException() {
         assertThrows(IllegalArgumentException.class,
                 () ->convertisseurDeNombreRomain.enNombreArabe("IL"));
     }
 
- //   @Disabled
+    @Disabled
     @Test
     public void leChiffreRomainICDevraitDonnerUneException() {
         assertThrows(IllegalArgumentException.class,
                 () ->convertisseurDeNombreRomain.enNombreArabe("IC"));
     }
 
- //   @Disabled
+    @Disabled
     @Test
     public void leChiffreRomainIDDevraitDonnerUneException() {
         assertThrows(IllegalArgumentException.class,
                 () ->convertisseurDeNombreRomain.enNombreArabe("ID"));
     }
 
- //   @Disabled
+    @Disabled
     @Test
     public void leChiffreRomainIMDevraitDonnerUneException() {
         assertThrows(IllegalArgumentException.class,
                 () ->convertisseurDeNombreRomain.enNombreArabe("IM"));
     }
 
- //   @Disabled
+    @Disabled
     @Test
     public void leChiffreRomainVXDevraitDonnerUneException() {
         assertThrows(IllegalArgumentException.class,
                 () ->convertisseurDeNombreRomain.enNombreArabe("VX"));
     }
 
- //   @Disabled
+    @Disabled
     @Test
     public void leChiffreRomainXDDevraitDonnerUneException() {
         assertThrows(IllegalArgumentException.class,
                 () ->convertisseurDeNombreRomain.enNombreArabe("XD"));
     }
 
-//    @Disabled
+    @Disabled
     @Test
     public void leChiffreRomainXMDevraitDonnerUneException() {
         assertThrows(IllegalArgumentException.class,
