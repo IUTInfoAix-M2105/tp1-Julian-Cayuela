@@ -12,10 +12,23 @@ public class RobotSimulator {
     }
 
     public void simulate() {
-        throw new RuntimeException("Not yet implemented !");
+        for(int j = 0; j < instructions.length(); j++) {
+            if (Movement.getMovement(instructions.charAt(j)) == Movement.LEFT) {
+                robot.turnLeft();
+            }
+            if (Movement.getMovement(instructions.charAt(j)) == Movement.RIGHT) {
+                robot.turnRight();
+            }
+            if (Movement.getMovement(instructions.charAt(j)) == Movement.ADVANCE) {
+                robot.advance();
+            }
+        }
     }
 
     public List<Movement> getMovements() {
-        throw new RuntimeException("Not yet implemented !");
+        return null;
     }
 }
+
+
+
