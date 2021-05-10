@@ -177,7 +177,7 @@ public final class RobotTest {
         assertEquals(expectedOrientation, robot.getOrientation());
     }
 
-    @Disabled
+//    @Disabled
     @Test
     public void testInstructionsToMoveWestAndSouth() {
         final Robot robot = new Robot(new GridPosition(2, -7), Orientation.EAST);
