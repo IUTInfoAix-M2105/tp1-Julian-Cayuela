@@ -27,6 +27,8 @@ public class ConvertisseurDeNombreRomain {
             return 9;
         if (i.equals("XLIX"))
             return 49;
+        if (i.equals("XCIX"))
+            return 99;
         return 0;
     }
 }

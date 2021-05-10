@@ -100,7 +100,7 @@ public class ConvertisseurDeNombreRomainTest {
         assertEquals(49, nombre);
     }
 
-    @Disabled
+ //   @Disabled
     @Test
     public void leChiffreRomainXCIXDevraitDonner99() {
         int nombre = convertisseurDeNombreRomain.enNombreArabe("XCIX");
