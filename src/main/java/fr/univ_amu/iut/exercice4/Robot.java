@@ -70,6 +70,10 @@ public class Robot {
                 int posX = gridPosition.getX();
                 gridPosition.setX(posX + 1);
                 break;
+            case WEST:
+                posX = gridPosition.getX();
+                gridPosition.setX(posX - 1);
+                break;
         }
 
     }
