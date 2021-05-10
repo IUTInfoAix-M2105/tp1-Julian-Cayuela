@@ -84,7 +84,7 @@ public final class RobotTest {
         assertEquals(expectedPosition, robot.getGridPosition());
     }
 
-    @Disabled
+//    @Disabled
     @Test
     public void testTurningLeftCorrectlyChangesOrientationFromNorthToWest() {
         final Robot robot = new Robot(new GridPosition(0, 0), Orientation.NORTH);

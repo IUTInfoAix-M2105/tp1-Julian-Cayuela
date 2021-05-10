@@ -39,6 +39,11 @@ public class Robot {
     }
 
     public void turnLeft() {
+        switch (orientation) {
+            case NORTH:
+                orientation = Orientation.WEST;
+                break;
+        }
 
     }
 
