@@ -7,7 +7,7 @@ public class Robot {
 
     public Robot(GridPosition gridPosition, Orientation orientation) {
         this.gridPosition = gridPosition;
-        this.orientation = Orientation.NORTH;
+        this.orientation = orientation;
 
 
     }
@@ -21,8 +21,14 @@ public class Robot {
     }
 
     public void turnRight() {
-       if (orientation == Orientation.NORTH)
-        orientation = Orientation.EAST;
+        switch (orientation) {
+            case NORTH:
+                orientation = Orientation.EAST;
+                break;
+            case EAST:
+                orientation = Orientation.SOUTH;
+                break;
+        }
 
     }
 
