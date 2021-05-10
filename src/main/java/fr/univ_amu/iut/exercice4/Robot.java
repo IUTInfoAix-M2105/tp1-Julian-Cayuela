@@ -21,6 +21,8 @@ public class Robot {
     }
 
     public void turnRight() {
+       if (orientation == Orientation.NORTH)
+        orientation = Orientation.EAST;
 
     }
 
