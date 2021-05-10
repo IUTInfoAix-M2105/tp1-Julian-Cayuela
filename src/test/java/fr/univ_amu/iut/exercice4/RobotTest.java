@@ -74,7 +74,7 @@ public final class RobotTest {
         assertEquals(expectedOrientation ,robot.getOrientation());
     }
 
-    @Disabled
+//    @Disabled
     @Test
     public void testTurningLeftDoesNotChangePosition() {
         final GridPosition initialGridPosition = new GridPosition(0, 0);
