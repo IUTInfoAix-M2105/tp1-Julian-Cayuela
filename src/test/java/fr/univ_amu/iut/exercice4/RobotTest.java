@@ -20,7 +20,7 @@ public final class RobotTest {
         assertEquals(initialGridPosition, robot.getGridPosition());
     }
 
-    @Disabled
+ //   @Disabled
     @Test
     public void testRobotIsCreatedWithCorrectInitialOrientation() {
         final Orientation initialOrientation = Orientation.NORTH;

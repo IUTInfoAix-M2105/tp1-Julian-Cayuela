@@ -7,6 +7,7 @@ public class Robot {
 
     public Robot(GridPosition gridPosition, Orientation orientation) {
         this.gridPosition = gridPosition;
+        this.orientation = Orientation.NORTH;
 
     }
 
