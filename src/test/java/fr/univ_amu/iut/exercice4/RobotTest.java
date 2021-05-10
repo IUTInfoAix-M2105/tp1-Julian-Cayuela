@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public final class RobotTest {
 
-    @Disabled
+//    @Disabled
     @Test
     public void testRobotIsCreatedWithCorrectInitialPosition() {
         final GridPosition initialGridPosition = new GridPosition(0, 0);
