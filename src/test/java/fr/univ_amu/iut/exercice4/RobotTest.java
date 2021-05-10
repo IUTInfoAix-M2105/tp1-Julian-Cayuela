@@ -129,7 +129,7 @@ public final class RobotTest {
         assertEquals(initialOrientation, robot.getOrientation());
     }
 
-    @Disabled
+ //   @Disabled
     @Test
     public void testAdvancingWhenFacingNorthIncreasesYCoordinateByOne() {
         final Robot robot = new Robot(new GridPosition(0, 0), Orientation.NORTH);

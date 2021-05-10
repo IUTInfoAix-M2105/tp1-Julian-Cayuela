@@ -58,6 +58,10 @@ public class Robot {
 
     public void advance() {
 
+        if (orientation == orientation.NORTH) {
+            int posY = gridPosition.getY();
+            gridPosition.setY(posY + 1);
+        }
 
     }
 }
