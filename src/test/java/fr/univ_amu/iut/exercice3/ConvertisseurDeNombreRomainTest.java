@@ -135,7 +135,7 @@ public class ConvertisseurDeNombreRomainTest {
                 () ->convertisseurDeNombreRomain.enNombreArabe("IL"));
     }
 
-    @Disabled
+//    @Disabled
     @Test
     public void leChiffreRomainICDevraitDonnerUneException() {
         assertThrows(IllegalArgumentException.class,

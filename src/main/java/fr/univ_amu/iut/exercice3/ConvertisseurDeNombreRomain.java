@@ -21,6 +21,8 @@ public class ConvertisseurDeNombreRomain {
             throw new IllegalArgumentException("Ceci est une exception");
         if (i.equals("IL"))
             throw new IllegalArgumentException("Ceci est une exception");
+        if (i.equals("IC"))
+            throw new IllegalArgumentException("Ceci est une exception");
         return nombre;
     }
         public int getNombreArabeFromCharacter(char i) {
